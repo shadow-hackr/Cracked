@@ -8,7 +8,7 @@ for n in range(50000):
     
     sys.stdout = open('.txt', 'a')
 
-    print nmbr
+    print (nmbr)
 
     sys.stdout.flush()
     
@@ -22,7 +22,7 @@ try:
 except ImportError:
     os.system('pip install request')
     time.sleep(1)
-    os.system('Then type: python without.py')
+    os.system('Then type: python boss')
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
 from multiprocessing.pool import ThreadPool
